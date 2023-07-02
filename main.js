@@ -1,6 +1,6 @@
 const board= document.querySelector('#board');
 const SQUARES_NUMBER = 500;   // set the number of cells
-const colors = ['#E635CB','#E6B363','#E64CD0','#60E635','#4099E6'];
+const colors = ['#E635CB','#E6B363','#E64CD0','#60E635','#4099E6'];  // arry randoms colors
 
 for(let i = 0; i < SQUARES_NUMBER; i++){
 const square = document.createElement('div');
