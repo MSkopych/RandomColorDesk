@@ -1,5 +1,5 @@
 const board= document.querySelector('#board');
-const SQUARES_NUMBER = 500;
+const SQUARES_NUMBER = 500;   // set the number of cells
 const colors = ['#E635CB','#E6B363','#E64CD0','#60E635','#4099E6'];
 
 for(let i = 0; i < SQUARES_NUMBER; i++){
