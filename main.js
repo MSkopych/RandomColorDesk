@@ -19,7 +19,7 @@ function setColor(element){
     element.style.backgroundColor = color
     element.style.boxShadow = `0 0 2px ${color}, 0 0 10px ${color}`;
 }
-function removeColor(element){
+function removeColor(element){                                       // a function that returns the initial color
     element.style.backgroundColor = '#1d1d1d'
     element.style.boxShadow = `0 0 2px #1d1d1d`;
 }
